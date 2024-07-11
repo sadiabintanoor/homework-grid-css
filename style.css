@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.card-area-start{
+    background-color: palevioletred;
+    padding: 50px o 50px 0;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.box img{
+    width: 350px;
+    height: 400px;
+}
+    
+ 
